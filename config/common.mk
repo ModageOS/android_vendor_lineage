@@ -196,6 +196,13 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/lineage/overlay/common
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/crowdin/overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crowdin/overlay
 
+# Gboard side padding
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.kb_pad_port_l=4 \
+    ro.com.google.ime.kb_pad_port_r=4 \
+    ro.com.google.ime.kb_pad_land_l=64 \
+    ro.com.google.ime.kb_pad_land_r=64
+
 PRODUCT_VERSION_MAJOR = 18
 PRODUCT_VERSION_MINOR = 1
 PRODUCT_VERSION_MAINTENANCE := 0
