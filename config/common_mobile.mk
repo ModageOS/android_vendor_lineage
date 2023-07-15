@@ -42,7 +42,6 @@ endif
 PRODUCT_PACKAGES += \
     LineageBlackTheme \
     LineageBlackAccent \
-    LineageBlueAccent \
     LineageBrownAccent \
     LineageCyanAccent \
     LineageGreenAccent \
